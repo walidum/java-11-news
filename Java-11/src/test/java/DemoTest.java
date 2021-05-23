@@ -20,5 +20,10 @@ class DemoTest {
     public void collectiontoArrayTest() {
         assertTrue(Arrays.equals(Demo.collectiontoArray(), new String[]{"Algiers", "Setif"}));
     }
+
+    @Test
+    public void httpClient() {
+        assertTrue(Demo.httpClient().contains("\"id\": 1,"));
+    }
 }
 
