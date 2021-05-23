@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DemoTest {
 
     @Test
-    void aaa() {
+    void newStringMethodsTest() {
          assertTrue(Demo.newStringMethods().equals(Arrays.asList("All Algeria", "Java", "Community.")));
     }
 }
